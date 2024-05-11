@@ -1,0 +1,20 @@
+.principal{
+    max-width: 100%;
+    text-align: center;
+    color: white;
+    margin-left: 40%;
+    margin-top: 25%;
+    font-size: larger;
+    margin-right: 17%;
+}
+
+body{
+    background-image: url("imagens/R.jpeg");
+    background-repeat: no-repeat;
+    max-width: 80%;
+    /*width: 100%;*/
+    /*display: flex;*/
+    /*padding: 100%;}
+*/
+}
+
