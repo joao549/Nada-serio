@@ -1,0 +1,14 @@
+let hora1 = Date.now();
+let hora2 = new Date()
+
+hora2.setUTCHours(21,0,0,0);
+
+let diferenca = hora2.getTime() - hora1;
+
+
+let horas = Math.floor(diferenca / (1000 * 60 * 60));
+let minutos = Math.floor((diferenca % (1000 * 60 * 60)) / (1000 * 60));
+let segundos = Math.floor((diferenca % (1000 * 60)) / 1000 );
+
+document.write(`Faltam ${horas} horas e ${minutos} minutos e ${segundos} segundos`);
+//document.write(hora1 + ' ' + hora2 + ' ' + diferenca + ' ' +falta);
